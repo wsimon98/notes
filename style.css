@@ -1,0 +1,95 @@
+body {
+    background-color: #222;
+    color: #ddd;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    background-color: #333;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-content {
+    flex: 3;
+    padding: 20px;
+}
+
+.main-content h2 {
+    margin-top: 0;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #444;
+    color: #ddd;
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type=submit]:hover {
+    background-color: #3e8e41;
+}
+
+#note-preview {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #444;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+#note-preview p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.folder {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.folder ul {
+    list-style: none;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.folder ul li {
+    margin-bottom: 5px;
+}
